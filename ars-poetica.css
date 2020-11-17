@@ -1,0 +1,35 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('assets/J.deep.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+.block {
+}
+
+/* Pozicionálás */
+.block {
+  width: 400px;
+  margin: 45px;
+  padding: 5px;
+  border-radius: 15px;
+  max-width: calc(100vw - 10px);
+  position: absolute;
+  top: 19+%;
+  left: 0;
+}
+h3 {
+  font-family: 'Xanh Mono', monospace;
+  color: white;
+  font-size: 30px; 
+}
